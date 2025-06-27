@@ -1,7 +1,7 @@
 import random
 l1,l2,l3=[],[],[]
 sum1,sum2,sum3=0,0,0
-print("----------LUCKY DRAW----------")
+print("----------LOTTERY----------")
 guess_num=int(input("Guess any number between 5 to 75:"))
 for i in range(5):
     num=random.randint(1,15)
